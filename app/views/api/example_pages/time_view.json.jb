@@ -1,0 +1,5 @@
+{
+  message: "What is the current time?",
+  time: @currect_time
+
+}

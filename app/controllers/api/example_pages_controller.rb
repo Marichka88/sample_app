@@ -1,9 +1,5 @@
-class Api::ExamplePagesController < ApplicationController
-    def hello_action
-      render json: {message: "Josh, you are going way too fast"}
-    end
-
-    def byebye_action
-      render json: {message: "hi"}
-    end
+  def time_action
+    @current_time = "It is 4:00 PM"
+    render 'time_view.json.jb'
+  end
 end
